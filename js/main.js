@@ -27,7 +27,7 @@
         for (var j = 0; j < playerT.length; j++) {
             playerImg = new Image();
             playerImg.onload = function () {
-                $.getJSON("https://raw.githubusercontent.com/tarnos12/rpgCanvasTest/master/json/map.json?callback=?", function (json) {
+                $.getJSON("https://github.com/tarnos12/rpgCanvasTest/blob/master/json/map.json", function (json) {
                     console.log(json); // this will show the info it in firebug console
                     testMap = json;
                     
